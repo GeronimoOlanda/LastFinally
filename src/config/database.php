@@ -4,7 +4,6 @@ $dbhost = 'localhost';
 $dbusername = 'root';
 $dbpassword = '';
 $dbname = 'LastFinally';
-
 try{
   $link = new PDO("mysql:host=$dbhost;dbname=$dbname", $dbusername, $dbpassword);
 

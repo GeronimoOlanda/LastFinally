@@ -14,6 +14,13 @@
     <form action="./src/controllers/loginController.php" method="POST">
         <div class="wrapper">
           <div class="container">
+          <?php
+                if(isset($message))
+                {
+                     echo '<label class="text-danger">'.$message.'</label>';
+                }
+          ?>
+
             <label class="label_form1" for="username">Nome de Usuario ou seu email</label><br>
             <input type="text" name="username" id="username" placeholder="Digite seu nome de usuario..."><br>
 

@@ -20,9 +20,8 @@ try{
     //verificando se existe
     $result = $statement->rowCount();
     if($result > 0){
-      echo $_SESSION["username"] = $username;
 
-      header("location: Processing/welcome.php");
+      echo $_SESSION["username"] = $username;
     }
 
 }catch(PDOException $exception){
