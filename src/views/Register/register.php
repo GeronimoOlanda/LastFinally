@@ -30,6 +30,7 @@
           <input type="password" name="repassword" id="repassword"><br><br>
 
           <select name="funcao">
+              <option value="0">Função/Departamento</option>
               <option value="1">Programação/TI</option>
               <option value="2">Setor Contabil</option>
               <option value="3">Setor RH</option>
