@@ -18,11 +18,11 @@
             <input type="text" name="username" id="username" placeholder="Digite seu nome de usuario..."><br>
 
             <label class="label_form2" for="password">Senha</label><br>
-            <input type="password" name="userpassword" id="userpassword" placeholder="Digite sua senha..."><br><br>
+            <input type="password" name="password" id="password" placeholder="Digite sua senha..."><br><br>
             <button type="submit" class="btn btn-success">EFETUAR LOGIN</button>
             <p>Não possui cadastro? <span><a href="./src/views/Register/register.php">Clique aqui  </a> </span>e se cadastre</p>
             </div>
-            
+
         </div>
     </form>
 

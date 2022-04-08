@@ -1,13 +1,5 @@
 <?php
+include("../config/database.php");
+include("../controllers/loginController.php");
+include("../controllers/registerController.php");
 
-//insert
-
-//update
-
-//delete
-
-//pesquisar um usuario
-
-//pesquisar todos os usuarios
-
-//listagem dos dados

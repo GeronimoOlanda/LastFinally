@@ -41,7 +41,7 @@
 
           <button type="submit" class="btn btn-success">EFETUAR LOGIN</button>
           <p> <span><a href="./../../../index.php" style="color:red;"><strong>Retornar Pagina de Login</strong></a> </span></p>
-          <?php echo($message); ?>
+        
         </div>
       </div>
     </form>
