@@ -22,6 +22,7 @@
             <button type="submit" class="btn btn-success">EFETUAR LOGIN</button>
             <p>Não possui cadastro? <span><a href="./src/views/Register/register.php">Clique aqui  </a> </span>e se cadastre</p>
             </div>
+            
         </div>
     </form>
 
