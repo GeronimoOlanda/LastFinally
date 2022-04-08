@@ -1,3 +1,12 @@
+<?php
+
+  session_start();
+  //colocar em todas as paginas para verficar se o usuario esta logado, caso nao esteja, sera redirecionado para a pagina de login
+  if(empty($_SESSION['username']) || $_SESSION['username'] == ''){
+      header("location: ../../../../index.php");
+      die();
+  }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +16,12 @@
   <title>Document</title>
 </head>
 <body>
-    logado com sucesso!
+    <header>
+      <nav>
+        <ul>
+          <li><a href="../../../controllers/Processing/logout.php">LOGOUT</a></li>
+        </ul>
+      </nav>
+    </header>
 </body>
 </html>
