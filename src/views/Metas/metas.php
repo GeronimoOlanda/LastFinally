@@ -1,12 +1,12 @@
-  <meta property="fb:app_id" content="your_app_id" /> <!-- Para ferramntas de analises -->
-  <meta name="twitter:site" content="@website-username"><!-- Para ferramentas de analises -->
+  <meta property="fb:app_id" content="LastFinally" /> <!-- Para ferramntas de analises -->
+  <meta name="twitter:site" content="@geronimo-olanda"><!-- Para ferramentas de analises -->
   <!-- META SOCIAL GERAL-->
-  <meta property="og:title" content="The Rock" />
-  <meta property="og:type" content="video.movie" />
-  <meta property="og:url" content="https://www.imdb.com/title/tt0117500/" />
-  <meta property="og:image" content="https://ia.media-imdb.com/images/rock.jpg" />
+  <meta property="og:title" content="Sistema de Gerenciamentos" />
+  <meta property="og:type" content="files" />
+  <meta property="og:url" content="exempl.com" />
+  <meta property="og:image" content="logo ou imagem" />
   <!-- META TWITTER -->
-  <meta name="twitter:title" content="European Travel Destinations ">
-  <meta name="twitter:description" content=" Offering tour packages for individuals or groups.">
-  <meta name="twitter:image" content=" http://euro-travel-example.com/thumbnail.jpg">
+  <meta name="twitter:title" content="Gerenciamento de Sistemas e Contabilidade ">
+  <meta name="twitter:description" content="Criação de websites e apps, manutenção em TI e Sitemas Contabil">
+  <meta name="twitter:image" content=" link imagem">
   <meta name="twitter:card" content="summary_large_image">
