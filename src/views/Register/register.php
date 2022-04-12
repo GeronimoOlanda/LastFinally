@@ -12,6 +12,7 @@
 </head>
 <body>
     <h2>DADOS CADASTRAIS</h2>
+
     <iframe name="votar" style="display:none;"></iframe>
     <form action="../../controllers/registerController.php" method="POST">
       <div class="wrapper">
@@ -40,6 +41,7 @@
           </select><br>
 
           <button type="submit" class="btn btn-success">EFETUAR LOGIN</button>
+          <p><?php if(isset($message)){ echo $message;} ?></p><br><br>
           <p> <span><a href="./../../../index.php" style="color:red;"><strong>Retornar Pagina de Login</strong></a> </span></p>
 
         </div>
