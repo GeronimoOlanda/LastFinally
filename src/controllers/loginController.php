@@ -9,9 +9,6 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
 
 include ("../config/database.php");
 
-$username = $_POST["username"];
-$password = md5($_POST["password"]);
-
 
 //validation datas
 
