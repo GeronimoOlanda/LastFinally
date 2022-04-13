@@ -1,18 +1,15 @@
 <?php
 
 session_start();
+include ("../config/database.php");
+
 
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
   header("location: Processing/welcome.php");
   exit;
 }
 
-include ("../config/database.php");
 
-
-//validation datas
-
-//insert
 try{
     $sql = 'SELECT username, password from users WHERE username = :username OR password = :password';
     $statement = $link->prepare($sql);
