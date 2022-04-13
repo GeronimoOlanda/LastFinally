@@ -44,14 +44,5 @@ if(empty($fullname) || empty($email)|| empty($username)|| empty($password)|| emp
   }
 }
 
-//update
-
-//delete
-
-//pesquisar um usuario
-
-//pesquisar todos os usuarios
-
-//listagem dos dados
 
 
